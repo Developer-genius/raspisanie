@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Иностранный язык</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align items at the top */
+            min-height: 100vh; /* Ensure full viewport height */
+            padding-top: 20px; /* Add some padding at the top */
+            position: relative; /* For back button positioning */
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #ffffff;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #495057;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .content-container {
+            width: 80%; /* Adjust width as needed */
+            max-width: 960px; /* Max width for larger screens */
+            margin-bottom: 20px; /* Spacing below the content */
+        }
+
+        h2 {
+             text-align: center;
+           color: #212529; /* Darker heading color */
+           font-weight: 600; /* Slightly bolder */
+           margin-bottom: 30px;
+        }
+
+        .section-block {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+             width: 100%; /* Make sections fill the content container */
+        }
+
+        .section-block h3 {
+            color: #343a40;
+            font-size: 1.3em;
+            font-weight: 500;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 10px;
+        }
+
+        .download-link {
+            display: block;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html" class="back-button">Назад</a>
+
+    <div class="content-container">
+        <h2>Иностранный язык</h2>
+
+        <div class="section-block">
+            <h3>Лекции</h3>
+            <a href="#" class="download-link">Скачать лекцию 1</a>
+            <a href="#" class="download-link">Скачать лекцию 2</a>
+            <!-- Добавьте больше ссылок для скачивания лекций -->
+        </div>
+
+        <div class="section-block">
+            <h3>Практики</h3>
+            <a href="#" class="download-link">Скачать практическое задание 1</a>
+            <a href="#" class="download-link">Скачать практическое задание 2</a>
+            <!-- Добавьте больше ссылок для скачивания практических заданий -->
+        </div>
+    </div>
+</body>
+</html>
